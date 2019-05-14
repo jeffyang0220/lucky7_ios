@@ -1,0 +1,268 @@
+body {
+}
+.main {
+    width: 100%;
+    background: url("../images/wap-bg.png") 0 0 no-repeat;
+    /*background-size: cover ;*/
+    background-size: auto 100%;
+    background-position: top;
+}
+.ul-main{
+    float: left;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 28.1481vh;
+}
+.logo{
+    /*width: 2.1rem;*/
+    /*height: 2.6rem;*/
+    /*width: 12.34vw;*/
+    /*height: 28.7vh;*/
+    width: 400px;
+    height: 500px;
+    background: url("../images/wap-logomobile.png") center 0 no-repeat;
+    background-size: 100% auto;
+    margin: 0 auto;
+}
+.bg-text{
+    /*width: 41.875vw;*/
+    /*height: 6.0185vh;*/
+    width: 802px;
+    height:65px;
+    background: url("../images/wap-bg-text.png") center 0 no-repeat;
+    background-size: 100% auto;
+    /*margin: 1.34rem auto .91rem;*/
+    margin: 12.4074vh auto 8.4259vh;
+
+}
+.bgText{
+    width: 41.7708vw;
+    height: 6.0185vh;
+}
+
+.defaultColor{
+    background: linear-gradient(120deg, #c29157,#d3a264); /* 标准的语法 */
+}
+.clickUpload{
+    background: linear-gradient(120deg, #149EFF,#149EFF); /* 标准的语法 */
+}
+
+.click2Upload{
+    background: linear-gradient(120deg, #cecece,#cecece); /* 标准的语法 */
+}
+.icon-btn{
+    text-align: center;
+    height: .48rem;
+    line-height: .48rem;
+    margin-bottom: 19.4444vh;
+}
+.icon-btn img{
+    width: 100%;
+
+
+}
+#a_android,
+#a_ios{
+    display: inline-block;
+    /*width: 3.36rem;*/
+    /*width: 17vw;*/
+    /*height:8.8vh*/
+    width: 200px;
+    height:66px
+}
+#a_android{
+
+}
+.a_downcont{
+    position: absolute;
+    text-align: center;
+    top: 103%;
+    width:100%;
+}
+.ts{
+
+}
+.ts-dl{
+    margin: 0 auto;
+ }
+.ts dt{
+    width: 766px ;
+    margin: 79px auto 0;
+}
+.ts dt div{
+    height: 70px;
+    background: url("../images/ts-tit.png")0 0 no-repeat;
+    background-size: contain;
+}
+.ts dd{
+
+    background-size: contain !important;
+    margin: 0 auto;
+}
+
+.ts dd:nth-child(2){
+    height: 419px;
+    background: url("../images/ts-2.png") center 0 no-repeat;
+}
+
+.ts dd:nth-child(3){
+    height: 418px;
+    background: url("../images/ts-4.png") center 0 no-repeat;
+}
+.sm{
+    /*width: 40.5729vw;*/
+    /*height:49.2592vh;*/
+    width: 673px;
+    height:532px;
+    background: url("../images/wap-bg-azsm.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 8.3333vh auto 11.1111vh;
+}
+.fl{
+    /*width: 40.5729vw;*/
+    /*height:  6.4814vh;*/
+    width: 670px;
+    height:  70px;
+    background: url("../images/bg-gyfl.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto !important;
+}
+.join{
+    /*width: 40.5729vw;*/
+    /*height: 39.8148vh;*/
+    width: 780px;
+    height: 430px;
+    position: relative;
+    background: url("../images/potato.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 4.6296vh auto 5.5555vh !important;
+
+}
+.join >.potato{
+
+}
+
+
+.a-btn{
+    width: 10.41vw;
+    height: 5.5555vh;
+    display: inline-block;
+    position: absolute;
+
+    bottom: 3.8vh;
+    left: 50%;
+    margin-left: -5.2vw;
+}
+.bg_zzc {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 100%;
+    z-index: 1;
+    opacity: .9;
+}
+.dialog {
+    width: 494px;
+    height: 654px;
+    background: url(../images/bg-tk-ewm.png) center center no-repeat;
+    background-size: auto 100%;
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    margin-left: -247px;
+    top: 50%;
+    margin-top: -327px;
+}
+.ewmImg{
+    height: 286px;
+}
+.ewmImg  img{
+    display: block;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 50%;
+    margin-left: -85px;
+    top: 8%;
+
+}
+
+.icon-del {
+    display: block;
+    width: 48px;
+    height: 48px;
+    right: 0;
+    top: 0;
+}
+
+.icon-andriod {
+    bottom: 2rem;
+    left: .6rem;
+}
+
+.icon-ios {
+    bottom: .5rem;
+    left: .6rem;
+}
+.hide{
+    display: none !important;
+}
+.btnTop{
+    width: .8rem;
+    height: .8rem;
+    display: inline-block;
+    position: fixed;
+    right: .1rem;
+    bottom: 6.9rem;
+}
+.btnDown{
+    width: .8rem;
+    height: .8rem;
+    display: inline-block;
+    position: fixed;
+    right: .1rem;
+
+    bottom: 6rem;
+
+}
+.text{
+    padding-top: 30px;
+}
+.text p:first-child{
+    width: 624px;
+    height: 79px;
+    font-family: PingFang-SC-Bold;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #646464;
+    text-align: center;
+    margin: 0 auto;
+}
+.text p:last-child{
+    /*width: 442px;*/
+    font-family: PingFang-SC-Bold;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #c29157;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+.btn-link{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 25px;
+    color: #Fff;
+    background-color: #c29157;
+    padding: 5px 20px;
+    margin-left: 10px;
+}
